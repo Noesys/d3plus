@@ -11,7 +11,7 @@ d3plus         = {}
 # @type String
 # @static
 ###
-d3plus.version = "1.9.8 - Cornflower"
+d3plus.version = "1.9.9 - Noesys"
 
 ###*
 # The URL for the repo, used internally for certain error messages.
@@ -20,7 +20,7 @@ d3plus.version = "1.9.8 - Cornflower"
 # @type String
 # @static
 ###
-d3plus.repo = "https://github.com/alexandersimoes/d3plus/"
+d3plus.repo = "https://github.com/noesys/d3plus/"
 
 ###*
 # Utilities related to modifying arrays.
@@ -28,11 +28,11 @@ d3plus.repo = "https://github.com/alexandersimoes/d3plus/"
 # @for d3plus
 # @static
 ###
-d3plus.array =
-  comparator: require "./array/comparator.coffee"
-  contains:   require "./array/contains.coffee"
-  sort:       require "./array/sort.coffee"
-  update:     require "./array/update.coffee"
+#d3plus.array =
+#  comparator: require "./array/comparator.coffee"
+#  contains:   require "./array/contains.coffee"
+#  sort:       require "./array/sort.coffee"
+#  update:     require "./array/update.coffee"
 
 ###*
 # Utilities related to the client's browser.
@@ -72,10 +72,10 @@ d3plus.color =
 # @for d3plus
 # @static
 ###
-d3plus.data =
-  bestRegress: require "./data/bestRegress.coffee"
-  lof:         require "./data/lof.coffee"
-  mad:         require "./data/mad.coffee"
+#d3plus.data =
+#  bestRegress: require "./data/bestRegress.coffee"
+#  lof:         require "./data/lof.coffee"
+#  mad:         require "./data/mad.coffee"
 
 ###*
 # Utilities related to fonts.
@@ -92,7 +92,7 @@ d3plus.font =
 # @class d3plus.form
 # @for d3plus
 ###
-d3plus.form = require "./form/form.js"
+# d3plus.form = require "./form/form.js"
 
 ###*
 # Utilities related to geometric algorithms.
@@ -100,10 +100,10 @@ d3plus.form = require "./form/form.js"
 # @for d3plus
 # @static
 ###
-d3plus.geom =
-  largestRect: require "./geom/largestRect.coffee"
-  offset:      require "./geom/offset.coffee"
-  path2poly:   require "./geom/path2poly.coffee"
+#d3plus.geom =
+#   largestRect: require "./geom/largestRect.coffee"
+#  offset:      require "./geom/offset.coffee"
+#  path2poly:   require "./geom/path2poly.coffee"
 
 ###*
 # Utilities related to network graphs.
@@ -111,13 +111,13 @@ d3plus.geom =
 # @for d3plus
 # @static
 ###
-d3plus.network =
-  cluster:      require "./network/cluster.coffee"
-  distance:     require "./network/distance.coffee"
-  normalize:    require "./network/normalize.coffee"
-  shortestPath: require "./network/shortestPath.coffee"
-  smallestGap:  require "./network/smallestGap.coffee"
-  subgraph:     require "./network/subgraph.coffee"
+# d3plus.network =
+# cluster:      require "./network/cluster.coffee"
+#  distance:     require "./network/distance.coffee"
+#  normalize:    require "./network/normalize.coffee"
+#  shortestPath: require "./network/shortestPath.coffee"
+#  smallestGap:  require "./network/smallestGap.coffee"
+#  subgraph:     require "./network/subgraph.coffee"
 
 ###*
 # Utilities that process numbers.
@@ -173,21 +173,21 @@ d3plus.tooltip =
 # @for d3plus
 # @static
 ###
-d3plus.util =
-  buckets:     require "./util/buckets.coffee"
-  child:       require "./util/child.coffee"
-  closest:     require "./util/closest.coffee"
-  copy:        require "./util/copy.coffee"
-  d3selection: require "./util/d3selection.coffee"
-  dataurl:     require "./util/dataURL.coffee"
-  uniques:     require "./util/uniques.coffee"
+#d3plus.util =
+#  buckets:     require "./util/buckets.coffee"
+#  child:       require "./util/child.coffee"
+#  closest:     require "./util/closest.coffee"
+#  copy:        require "./util/copy.coffee"
+#  d3selection: require "./util/d3selection.coffee"
+#  dataurl:     require "./util/dataURL.coffee"
+#  uniques:     require "./util/uniques.coffee"
 
 ###*
 # D3plus Visualizations
 # @class d3plus.viz
 # @for d3plus
 ###
-d3plus.viz = require "./viz/viz.coffee"
+## d3plus.viz = require "./viz/viz.coffee"
 
 # Flash a console message if they are loading the old, unneeded stylesheet!
 stylesheet = require "./client/css.coffee"

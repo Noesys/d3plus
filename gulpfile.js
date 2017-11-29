@@ -4,4 +4,4 @@ require("require-dir")("./gulp");
 
 gulp.task("default", ["server", "dev"]);
 
-gulp.task("release", ["compile", "docs"], function() { process.exit(); });
+gulp.task("release", ["compile"], function() { process.exit(); });
