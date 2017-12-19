@@ -60,12 +60,12 @@
   },
   "homepage": "http://www.d3plus.org",
   "dependencies": {
-    "d3": "^3.5.15",
+    "d3": "^4.12.0",
     "heap": "^0.2.6",
     "numeric": "^1.2.6",
     "simplify-js": "^1.2.1",
     "static-kdtree": "^1.0.1",
-    "topojson": "^1.6.24"
+    "topojson": "^3.0.0"
   },
   "filename": "d3plus.min.js",
   "npmName": "d3plus",
